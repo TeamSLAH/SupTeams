@@ -1,0 +1,79 @@
+{
+  "Groups": [
+    {
+      "Name": "slah",
+      "Users": [
+        "carsten.schlegel@suportis.com",
+        "jose.jessberger@suportis.com",
+        "*andereGruppe",
+        "Andy.Glaenzel@suportis.com"
+      ]
+    },
+    {
+      "Name": "andereGruppe",
+      "Users": [
+        "Markus.Goehringer@suportis.com",
+        "Jasmin.Weis@suportis.com",
+        "*C"
+      ]
+    },
+    {
+      "Name": "C",
+      "Users": [
+        "cemre.dogan@suportis.com",
+        "Markus.Goehringer@suportis.com",
+        "Daniela.Kelsch@suportis.com",
+        "carsten.schlegel@suportis.com",
+        "Jasmin.Weis@suportis.com"
+      ]
+    }
+  ],
+  "Teams": [
+    {
+      "Name": "Test",
+      "ID": "de48fccd-0be4-4c31-8b2b-82aea6075c31",
+      "Description": "Test via Skript",
+      "Logo": "/Users/carstenschlegel/.local/share/powershell/Modules/SupTeams/logo.png",
+      "Users": [
+        "carsten.schlegel@suportis.com",
+        "*slah"
+      ],
+      "Channels": [
+        {
+          "Name": "Ankündigungen 📢",
+          "Description": "Verwenden Sie diesen Kanal, um wichtige Team- und Ereignisankündigungen zu veröffentlichen.",
+          "Settings": []
+        },
+        "*vorlage1"
+      ]
+    }
+  ],
+  "ChannelTemplates": [
+    {
+      "Name": "vorlage1",
+      "Channels": [
+        {
+          "Name": "Projekt 33",
+          "Description": "Projekt 2 Test...",
+          "Settings": []
+        },
+        "*vorlage2"
+      ]
+    },
+    {
+      "Name": "vorlage2",
+      "Channels": [
+        {
+          "Name": "Projekt 3",
+          "Description": "Beschreibung für Projekt 3",
+          "Settings": []
+        },
+        {
+          "Name": "Projekt 4",
+          "Description": "Beschreibung für Projekt 4",
+          "Settings": []
+        }
+      ]
+    }
+  ]
+}
